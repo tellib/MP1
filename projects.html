@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Berk's personal website" />
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Berk Tellioglu | Projects</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>Berk Tellioglu</h1>
+        <p>Online Resume</p>
+      </header>
+      <div id="container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="employment.html">Employment</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <main>
+          <h2>Projects</h2>
+          <h3>GitHub</h3>
+          <ul>
+            <li>
+              <a href="https://github.com/tellib/ai-chatbot">AI Chatbot</a>
+            </li>
+            <li>
+              <a href="https://github.com/tellib/kanban">Kanban Board</a>
+            </li>
+            <li>
+              <a href="https://github.com/tellib/zodiac-symbol"
+                >Zodiac Symbol</a
+              >
+            </li>
+          </ul>
+
+          <h3 id="calculator-title">JavaScript Calculator</h3>
+          <div id="calculator">
+            <label for="first-number">First Number</label>
+            <input type="text" id="first" focus />
+            <label for="second-number">Second Number</label>
+            <input type="text" id="second" />
+            <div id="operations">
+              <button onclick="addition()">+</button>
+              <button onclick="subtraction()">-</button>
+              <button onclick="multiplication()">x</button>
+              <button onclick="division()">/</button>
+              <button onclick="power()">**</button>
+            </div>
+            <button onclick="clearInputs()">Clear</button>
+            <label for="result">Result</label>
+            <input type="text" id="result" disabled />
+          </div>
+        </main>
+      </div>
+      <footer>
+        <p>
+          All Rights Reserved by Berk Tellioglu
+          <a href="credits.html">Credits</a> &#169;
+        </p>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
